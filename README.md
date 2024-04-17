@@ -13,8 +13,8 @@ Hello, I am full stack developer, working on multiple open source projects, main
   
 -------------------
   
-!sabry134 github stats](https://github-readme-stats.vercel.app/api?username=sabry134&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
+![sabry134 github stats](https://github-readme-stats.vercel.app/api?username=sabry134&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
 
-!sabry134 github streak](https://github-readme-streak-stats.herokuapp.com/?user=sabry134&theme=radical&include_all_commits=true&count_private=true)
+![sabry134 github streak](https://github-readme-streak-stats.herokuapp.com/?user=sabry134&theme=radical&include_all_commits=true&count_private=true)
 
  <div>
