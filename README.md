@@ -1,7 +1,7 @@
 <div align="center">
   
 ## About
-Hello, I am full stack developer, working on multiple projects, be it front end, backend or softwares. I am also a freelance working on doing specific project requests.
+Hello, I am full stack developer, working on multiple projects, be it front end, backend or softwares. I am also a freelance working on doing specific project requests. My specialities are mainly AI and cybersecurity 
 
 -------------------
 
