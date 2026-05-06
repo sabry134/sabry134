@@ -13,7 +13,9 @@ Hello, I am full stack developer, working on multiple projects, be it front end,
   
 -------------------
   
-![Sabry's GitHub stats](https://github-readme-stats.vercel.app/api?username=sabry134&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sabry134&theme=radical)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sabry134&theme=radical&include_all_commits=true&count_private=true)
+![Sabry's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=sabry134&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
+
+![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sabry134&layout=compact&theme=radical)
  <div>
