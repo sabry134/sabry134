@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-labelledby="title description">
+  <title id="title">Sabry 134 cyber footer</title>
+  <desc id="description">Futuristic cyber interface footer</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#0b1023"/>
+      <stop offset="100%" stop-color="#13091d"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ff2d75"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#00f5ff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="120" rx="16" fill="url(#background)"/>
+  <rect width="1200" height="120" rx="16" fill="url(#grid)"/>
+  <rect x="18" y="18" width="1164" height="84" rx="12" fill="none" stroke="url(#neon)" stroke-width="2" stroke-opacity="0.7"/>
+  <path d="M18 60H230L260 32H430" fill="none" stroke="#00f5ff" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M1182 60H970L940 88H770" fill="none" stroke="#ff2d75" stroke-opacity="0.35" stroke-width="2"/>
+  <circle cx="230" cy="60" r="4" fill="#00f5ff"/>
+  <circle cx="970" cy="60" r="4" fill="#ff2d75"/>
+  <text x="600" y="55" text-anchor="middle" fill="#dbeafe" font-family="'Courier New', monospace" font-size="15" letter-spacing="3">END OF PROFILE TRANSMISSION</text>
+  <text x="600" y="81" text-anchor="middle" fill="#00f5ff" font-family="'Courier New', monospace" font-size="12" letter-spacing="2">
+    CONNECTION SECURED // NODE_134
+    <animate attributeName="opacity" values="1;0.45;1" dur="2.2s" repeatCount="indefinite"/>
+  </text>
+</svg>

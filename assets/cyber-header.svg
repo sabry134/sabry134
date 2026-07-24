@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Sabry 134</title>
+  <desc id="description">Full Stack Developer, Artificial Intelligence and Cybersecurity</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="45%" stop-color="#0b1023"/>
+      <stop offset="100%" stop-color="#13091d"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ff2d75"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f5ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00f5ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00f5ff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <pattern id="microGrid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.7" fill="#ff2d75" fill-opacity="0.08"/>
+    </pattern>
+    <filter id="cyanGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="pinkGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.3 0 0.2 0 0 0 0 0 0.5 0 0.2 0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frameClip">
+      <rect x="18" y="18" width="1164" height="324" rx="18"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="360" fill="url(#background)"/>
+  <rect width="1200" height="360" fill="url(#glow)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect width="1200" height="360" fill="url(#microGrid)"/>
+  <g clip-path="url(#frameClip)">
+    <rect x="0" y="-80" width="1200" height="70" fill="url(#scan)">
+      <animate attributeName="y" from="-80" to="430" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M0 285L230 285L270 245L460 245" fill="none" stroke="#00f5ff" stroke-opacity="0.22" stroke-width="2"/>
+    <path d="M1200 76L980 76L930 126L760 126" fill="none" stroke="#ff2d75" stroke-opacity="0.22" stroke-width="2"/>
+    <path d="M0 90L170 90L210 130L360 130" fill="none" stroke="#7c3aed" stroke-opacity="0.18" stroke-width="1.5"/>
+    <path d="M1200 294L1010 294L970 254L835 254" fill="none" stroke="#00f5ff" stroke-opacity="0.18" stroke-width="1.5"/>
+    <g fill="#00f5ff">
+      <circle cx="230" cy="285" r="4" filter="url(#cyanGlow)"/>
+      <circle cx="270" cy="245" r="3"/>
+      <circle cx="460" cy="245" r="3"/>
+      <circle cx="760" cy="126" r="3"/>
+    </g>
+    <g fill="#ff2d75">
+      <circle cx="980" cy="76" r="4" filter="url(#pinkGlow)"/>
+      <circle cx="930" cy="126" r="3"/>
+      <circle cx="1010" cy="294" r="3"/>
+      <circle cx="835" cy="254" r="3"/>
+    </g>
+  </g>
+  <rect x="18" y="18" width="1164" height="324" rx="18" fill="none" stroke="url(#neon)" stroke-width="2" stroke-opacity="0.75"/>
+  <path d="M18 85V38Q18 18 38 18H190" fill="none" stroke="#00f5ff" stroke-width="5"/>
+  <path d="M1010 18H1162Q1182 18 1182 38V85" fill="none" stroke="#ff2d75" stroke-width="5"/>
+  <path d="M18 275V322Q18 342 38 342H190" fill="none" stroke="#ff2d75" stroke-width="5"/>
+  <path d="M1010 342H1162Q1182 342 1182 322V275" fill="none" stroke="#00f5ff" stroke-width="5"/>
+  <g font-family="'Courier New', monospace">
+    <text x="58" y="62" fill="#00f5ff" font-size="13" letter-spacing="2">SYS://PROFILE_INTERFACE</text>
+    <text x="1142" y="62" text-anchor="end" fill="#ff2d75" font-size="13" letter-spacing="2">NODE_134</text>
+    <text x="600" y="158" text-anchor="middle" fill="#ffffff" font-size="72" font-weight="700" letter-spacing="10" filter="url(#pinkGlow)">SABRY 134</text>
+    <text x="600" y="158" text-anchor="middle" fill="url(#neon)" font-size="72" font-weight="700" letter-spacing="10">SABRY 134</text>
+    <rect x="329" y="183" width="542" height="2" fill="url(#neon)" opacity="0.85"/>
+    <text x="600" y="220" text-anchor="middle" fill="#dbeafe" font-size="18" letter-spacing="4">FULL STACK DEVELOPER</text>
+    <text x="600" y="252" text-anchor="middle" fill="#94a3b8" font-size="14" letter-spacing="3">ARTIFICIAL INTELLIGENCE  •  CYBERSECURITY  •  AUTOMATION</text>
+    <text x="58" y="314" fill="#64748b" font-size="12" letter-spacing="2">ACCESS_LEVEL: PUBLIC</text>
+    <text x="1142" y="314" text-anchor="end" fill="#64748b" font-size="12" letter-spacing="2">STATUS: ONLINE</text>
+    <text x="872" y="314" fill="#22c55e" font-size="18">●</text>
+    <text x="600" y="302" text-anchor="middle" fill="#00f5ff" font-size="13" letter-spacing="2">
+      BUILDING SYSTEMS BEYOND THE INTERFACE
+      <animate attributeName="opacity" values="1;0.5;1" dur="2.5s" repeatCount="indefinite"/>
+    </text>
+    <rect x="974" y="302" width="9" height="15" fill="#00f5ff">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g opacity="0.75">
+    <rect x="58" y="83" width="68" height="4" fill="#00f5ff"/>
+    <rect x="58" y="92" width="42" height="2" fill="#00f5ff" opacity="0.5"/>
+    <rect x="1074" y="83" width="68" height="4" fill="#ff2d75"/>
+    <rect x="1100" y="92" width="42" height="2" fill="#ff2d75" opacity="0.5"/>
+  </g>
+</svg>
