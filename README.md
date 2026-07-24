@@ -171,7 +171,7 @@ Protected APIs
 
 <h2>⌁ GITHUB.TELEMETRY</h2>
 
-<img src="./github-metrics.svg" width="100%" alt="Sabry 134 GitHub metrics">
+<img src="https://raw.githubusercontent.com/sabry134/sabry134/main/github-metrics.svg" width="100%" alt="Sabry 134 GitHub metrics">
 
 </div>
 
@@ -216,18 +216,17 @@ Custom software designed around precise project requirements and real operationa
 
 <div align="center">
 
-<h2>⌁ CONNECTION.READY</h2>
+<h2>⌁ PROJECT.SIGNAL</h2>
 
-<pre>
-root@sabry134:~$ initialize collaboration
-Searching for interesting projects...
-Freelance development interface available.
-Connection status: READY
-</pre>
+<img src="https://raw.githubusercontent.com/sabry134/sabry134/main/assets/project-signal.svg" width="100%" alt="Animated project signal scanner">
 
-<a href="https://github.com/sabry134">
-  <img src="https://img.shields.io/badge/VIEW_REPOSITORIES-00f5ff?style=for-the-badge&logo=github&logoColor=0a0f1c" alt="View repositories">
+<br><br>
+
+<a href="https://github.com/sabry134?tab=repositories">
+  <img src="https://img.shields.io/badge/OPEN_PROJECT_ARCHIVE-00f5ff?style=for-the-badge&logo=github&logoColor=0a0f1c" alt="Open project archive">
 </a>
+
+<img src="https://img.shields.io/badge/FREELANCE_CHANNEL-OPEN-22c55e?style=for-the-badge&labelColor=0a0f1c" alt="Freelance channel open">
 
 <br><br>
 
