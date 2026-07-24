@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title description">
+  <title id="title">GitHub telemetry initializing</title>
+  <desc id="description">Cyber styled placeholder displayed until GitHub metrics are generated</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#0b1023"/>
+      <stop offset="100%" stop-color="#13091d"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ff2d75"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00f5ff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#grid)"/>
+  <rect x="18" y="18" width="1164" height="384" rx="16" fill="none" stroke="url(#neon)" stroke-width="2"/>
+  <path d="M18 95V38Q18 18 38 18H210" fill="none" stroke="#00f5ff" stroke-width="5"/>
+  <path d="M990 18H1162Q1182 18 1182 38V95" fill="none" stroke="#ff2d75" stroke-width="5"/>
+  <path d="M18 325V382Q18 402 38 402H210" fill="none" stroke="#ff2d75" stroke-width="5"/>
+  <path d="M990 402H1162Q1182 402 1182 382V325" fill="none" stroke="#00f5ff" stroke-width="5"/>
+  <g font-family="'Courier New', monospace">
+    <text x="56" y="62" fill="#00f5ff" font-size="14" letter-spacing="2">SYS://GITHUB_TELEMETRY</text>
+    <text x="1144" y="62" text-anchor="end" fill="#ff2d75" font-size="14" letter-spacing="2">NODE_134</text>
+    <text x="600" y="158" text-anchor="middle" fill="#ffffff" font-size="36" font-weight="700" letter-spacing="5">TELEMETRY INITIALIZING</text>
+    <rect x="310" y="188" width="580" height="10" rx="5" fill="#111827" stroke="#334155"/>
+    <rect x="310" y="188" width="180" height="10" rx="5" fill="url(#neon)" filter="url(#glow)">
+      <animate attributeName="x" values="310;710;310" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="180;80;180" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="600" y="247" text-anchor="middle" fill="#94a3b8" font-size="17" letter-spacing="2">RUN THE GENERATE CYBER METRICS WORKFLOW</text>
+    <text x="600" y="282" text-anchor="middle" fill="#64748b" font-size="14" letter-spacing="1">THIS PLACEHOLDER WILL BE REPLACED AUTOMATICALLY</text>
+    <text x="600" y="342" text-anchor="middle" fill="#00f5ff" font-size="15" letter-spacing="2">
+      CONNECTION STATUS: WAITING FOR FIRST DATA SYNC
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
