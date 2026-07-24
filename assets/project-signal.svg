@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title description">
+  <title id="title">Project signal scanner</title>
+  <desc id="description">Animated cyber interface scanning and waiting for new projects</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="48%" stop-color="#08101f"/>
+      <stop offset="100%" stop-color="#16091e"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ff2d75"/>
+    </linearGradient>
+    <radialGradient id="radarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.2"/>
+      <stop offset="65%" stop-color="#7c3aed" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#050816" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00f5ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#00f5ff" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="cyanGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="pinkGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect x="18" y="18" width="1164" height="424" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="460" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="460" rx="22" fill="url(#grid)"/>
+  <rect x="18" y="18" width="1164" height="424" rx="20" fill="none" stroke="url(#neon)" stroke-width="2" stroke-opacity="0.85"/>
+
+  <g clip-path="url(#frame)">
+    <rect x="-140" y="0" width="110" height="460" fill="#00f5ff" opacity="0.035">
+      <animate attributeName="x" values="-140;1230" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="-70" width="1200" height="55" fill="#ff2d75" opacity="0.03">
+      <animate attributeName="y" values="-70;500" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <path d="M18 95V38Q18 18 38 18H220" fill="none" stroke="#00f5ff" stroke-width="5"/>
+  <path d="M980 18H1162Q1182 18 1182 38V95" fill="none" stroke="#ff2d75" stroke-width="5"/>
+  <path d="M18 365V422Q18 442 38 442H220" fill="none" stroke="#ff2d75" stroke-width="5"/>
+  <path d="M980 442H1162Q1182 442 1182 422V365" fill="none" stroke="#00f5ff" stroke-width="5"/>
+
+  <g font-family="'Courier New', monospace">
+    <text x="55" y="58" fill="#00f5ff" font-size="13" letter-spacing="2">SYS://PROJECT_SIGNAL_MONITOR</text>
+    <text x="1145" y="58" text-anchor="end" fill="#ff2d75" font-size="13" letter-spacing="2">CHANNEL_134</text>
+  </g>
+
+  <g transform="translate(262 239)">
+    <circle r="142" fill="url(#radarGlow)"/>
+    <circle r="136" fill="none" stroke="#00f5ff" stroke-opacity="0.22" stroke-width="1.5"/>
+    <circle r="102" fill="none" stroke="#00f5ff" stroke-opacity="0.16"/>
+    <circle r="68" fill="none" stroke="#7c3aed" stroke-opacity="0.2"/>
+    <circle r="34" fill="none" stroke="#ff2d75" stroke-opacity="0.24"/>
+    <path d="M-136 0H136M0-136V136" stroke="#00f5ff" stroke-opacity="0.11"/>
+    <path d="M-96-96L96 96M96-96L-96 96" stroke="#7c3aed" stroke-opacity="0.08"/>
+
+    <g>
+      <path d="M0 0L136 0A136 136 0 0 1 96 96Z" fill="url(#beam)" opacity="0.28"/>
+      <line x1="0" y1="0" x2="136" y2="0" stroke="#00f5ff" stroke-width="2" filter="url(#cyanGlow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <g>
+      <circle cx="86" cy="-53" r="5" fill="#00f5ff" filter="url(#cyanGlow)">
+        <animate attributeName="r" values="4;8;4" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-74" cy="81" r="4" fill="#ff2d75" filter="url(#pinkGlow)">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="35" cy="42" r="3" fill="#7c3aed">
+        <animate attributeName="r" values="2;5;2" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g fill="none" stroke="#00f5ff" stroke-width="2" stroke-linecap="round" opacity="0.8">
+      <path d="M-14-6L0-18L14-6"/>
+      <path d="M-14 6L0 18L14 6"/>
+      <animateTransform attributeName="transform" type="scale" values="1;1.18;1" dur="2s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g font-family="'Courier New', monospace">
+    <text x="470" y="116" fill="#64748b" font-size="14" letter-spacing="2">LIVE TERMINAL</text>
+    <rect x="468" y="134" width="666" height="230" rx="12" fill="#050816" fill-opacity="0.72" stroke="#334155"/>
+    <rect x="468" y="134" width="666" height="34" rx="12" fill="#0f172a"/>
+    <circle cx="490" cy="151" r="5" fill="#ff2d75"/>
+    <circle cx="508" cy="151" r="5" fill="#facc15"/>
+    <circle cx="526" cy="151" r="5" fill="#22c55e"/>
+    <text x="550" y="156" fill="#64748b" font-size="12">project-listener.exe</text>
+
+    <text x="496" y="203" fill="#00f5ff" font-size="16">root@sabry134:~$ scan --projects</text>
+
+    <text x="496" y="240" fill="#94a3b8" font-size="15" opacity="0">
+      [01] searching frontend frequencies...
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.04;0.1;0.92;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="496" y="270" fill="#94a3b8" font-size="15" opacity="0">
+      [02] listening for backend requests...
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.16;0.22;0.92;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="496" y="300" fill="#94a3b8" font-size="15" opacity="0">
+      [03] waiting for AI and security missions...
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.28;0.34;0.92;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <g opacity="0">
+      <text x="496" y="338" fill="#22c55e" font-size="18" font-weight="700" letter-spacing="1">SIGNAL DETECTED // PROJECT CHANNEL OPEN</text>
+      <rect x="486" y="315" width="618" height="38" rx="8" fill="none" stroke="#22c55e" stroke-width="2" filter="url(#cyanGlow)"/>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.48;0.56;0.9;1" dur="8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0;0 -4" keyTimes="0;0.48;0.56;0.9;1" dur="8s" repeatCount="indefinite"/>
+    </g>
+
+    <rect x="496" y="326" width="10" height="18" fill="#00f5ff">
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="326;326;326;326" dur="8s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="470" y="404" fill="#ff2d75" font-size="13" letter-spacing="2">STATUS:</text>
+    <text x="545" y="404" fill="#dbeafe" font-size="13" letter-spacing="2">AVAILABLE FOR CUSTOM PROJECTS</text>
+    <circle cx="814" cy="399" r="5" fill="#22c55e" filter="url(#cyanGlow)">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g fill="#00f5ff">
+    <circle cx="1090" cy="96" r="2">
+      <animate attributeName="cy" values="96;76;96" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1117" cy="106" r="2">
+      <animate attributeName="cy" values="106;78;106" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1062" cy="114" r="2">
+      <animate attributeName="cy" values="114;84;114" dur="2.5s" begin="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.5s" begin="0.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
